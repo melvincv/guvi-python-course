@@ -1,12 +1,16 @@
-x="Hello from Melvin, who lives in India"
+x="  Hello from Melvin, who lives in India  "
 
 y='''
 This is a multi-line string.
 It can span multiple lines.
 You can include line breaks and indentation.
 '''
+
+print(y)
+
 # String is an Array, print the first character
-print(x[0])
+print("print the 3 character of the string x:")
+print(x[2])
 
 # Length of the string
 print(len(x))
@@ -34,3 +38,11 @@ a = "Hello"
 b = "World"
 c = a + " " + b
 print(c)
+
+print()
+
+text = "python is easy python is powerful"
+
+print(text.find("python"))   # index of first match
+print(text.count("python"))  # 2
+print("easy" in text)  # True
